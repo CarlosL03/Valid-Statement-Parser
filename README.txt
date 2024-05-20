@@ -2,8 +2,6 @@ README
 
 CS-530, Spring 2024 -- Assignment 3: Statement Parser using flex & bison
 Carlos Lopez
-REDID: 827117558
-Class Acount: cssc4002
 
 Project Grammar:
 <stmts> ::= <statement> 
@@ -53,9 +51,4 @@ Operating Instructions:
         command line inputs to be parsed.
 
 Design choices/Deficiencies/Lessons Learned:
-    - I tried at first to create grammar specifically for invalid expressions and assignments but after 
-        countless attempts at changing the lex and rewritting definitions I wasn't able to accomplish
-        what I wanted.
-    - The yacc file uses the bison built-in error checking that detects and reports syntax errors on
-        the statements. It cuts printing the parsed line right where a syntax error was found and as
-        such doesn't print the whole statement before printing the type of syntax error.
+    - I tried at first to create grammar specifically for invalid expressions and assignments but after countless attempts at changing the lex and rewritting definitions I wasn't able to accomplishwhat I wanted.
