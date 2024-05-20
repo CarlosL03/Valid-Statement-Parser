@@ -1,4 +1,4 @@
-/*** Carlos Lopez, REDID: 827117558 ***/
+/*** Carlos Lopez ***/
 
 %{
     #include <stdio.h>
